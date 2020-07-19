@@ -1,6 +1,10 @@
 /*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/body v2.2.0 */
+main>.au-body {
+    padding: 32px 0;
+    padding: 2rem 0
+}
 
 @media print {
     .au-body *, .au-body {

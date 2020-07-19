@@ -197,18 +197,18 @@
 .au-accordion-group {
     list-style: none;
     padding: 0
-}
-
-@media (min-width: 768px) {
+}@media (min-width: 768px) {
     main>.banner {
         padding: 64px 0;
         padding: 4rem 0
     }
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/body v2.2.0 */
+main>.au-body {
+    padding: 32px 0;
+    padding: 2rem 0
+}
 
 @media print {
     .au-body *, .au-body {
@@ -568,9 +568,7 @@
 
 .au-body.au-body--dark.au-body--alt code, .au-body.au-body--dark.au-body--alt kbd, .au-body.au-body--dark.au-body--alt samp {
     background-color: #0a323c
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/link-list v3.0.8 */
 
@@ -668,9 +666,7 @@
 
 .au-breadcrumbs.au-breadcrumbs--dark>.au-link-list>li:not(:last-child):after {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 128 128'%3E%3Cpath fill='%2389afb8' d='M128 64l-64 64-16-16 64-64'/%3E%3Cpath fill='%2389afb8' d='M128 64l-16 16-64-64L64 0'/%3E%3C/svg%3E")
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/buttons v3.0.7 */
 
@@ -860,9 +856,7 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     text-align: center
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/callout v3.0.2 */
 
@@ -973,9 +967,7 @@
 *+.au-callout--calendar-event__time, *+.au-callout--calendar-event__name, *+.au-callout--calendar-event__lede {
     margin-top: 8px;
     margin-top: .5rem
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/card v0.3.2 */
 
@@ -1148,9 +1140,7 @@ a.au-card.au-card--shadow:hover {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/control-input v3.0.1 */
 
@@ -1500,9 +1490,7 @@ a.au-card.au-card--shadow:hover {
 
 .au-control-input--dark .au-control-input__text {
     color: #fff
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/cta-link v2.2.0 */
 
@@ -1601,9 +1589,7 @@ a.au-card.au-card--shadow:hover {
 
 .au-cta-link.au-cta-link--dark:hover:after {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cpath fill='%23fff' d='M128 64l-64 64-16-16 64-64'/%3E%3Cpath fill='%23fff' d='M128 64l-16 16-64-64L64 0'/%3E%3C/svg%3E")
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/direction-links v3.0.0 */
 
@@ -1698,9 +1684,7 @@ a.au-card.au-card--shadow:hover {
 
 .au-direction-link__arrow--left:after {
     content: '←'
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/footer v3.0.5 */
 
@@ -1757,9 +1741,7 @@ a.au-card.au-card--shadow:hover {
 
 .au-footer--dark .au-footer__end {
     border-top: 1px solid #89afb8
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/form v0.1.5 */
 
@@ -1867,9 +1849,7 @@ a.au-card.au-card--shadow:hover {
 .au-fieldset__legend {
     margin-bottom: 12px;
     margin-bottom: .75rem
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/grid-12 v2.1.0 */
 
@@ -2620,9 +2600,7 @@ a.au-card.au-card--shadow:hover {
     .au-grid .col-lg-offset-12 {
         margin-left: 100%
     }
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/header v4.1.12 */
 
@@ -2831,9 +2809,7 @@ a.au-header__brand:hover .au-header__text {
 .au-header.au-header--hero .au-header__heading+.au-header__subline {
     margin-top: 12px;
     margin-top: .75rem
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/headings v2.0.11 */
 
@@ -2904,9 +2880,7 @@ a.au-header__brand:hover .au-header__text {
 .au-body h1+h2, .au-body h2+h3, .au-body .au-display-xxl+h2, .au-body .au-display-xl+h3, .au-body h1+.au-display-xl, .au-body h2+.au-display-lg, .au-body .au-display-xxl+.au-display-xl, .au-body .au-display-xl+.au-display-lg, .au-body *+h3, .au-body *+h4, .au-body *+h5, .au-body *+h6, .au-body *+.au-display-md, .au-body *+.au-display-sm, .au-body *+.au-display-xs {
     margin-top: 24px;
     margin-top: 1.5rem
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/link-list v3.0.8 */
 
@@ -3000,9 +2974,7 @@ a.au-header__brand:hover .au-header__text {
     position: absolute;
     right: 0;
     font-weight: normal
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/link-list v3.0.8 */
 
@@ -3090,9 +3062,7 @@ a.au-header__brand:hover .au-header__text {
 
 .au-keyword-list--dark .au-keyword-list__small {
     color: #fff
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/body v2.2.0 */
 
@@ -3487,9 +3457,7 @@ a.au-header__brand:hover .au-header__text {
 
 .au-link-list.au-link-list--inline>li {
     display: inline-block
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/link-list v3.0.8 */
 
@@ -3866,9 +3834,7 @@ a.au-header__brand:hover .au-header__text {
     .js .au-main-nav__scroll--locked {
         overflow: visible
     }
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/body v2.2.0 */
 
@@ -4407,9 +4373,7 @@ a.au-header__brand:hover .au-header__text {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/progress-indicator v3.1.7 */
 
@@ -4581,9 +4545,7 @@ a.au-header__brand:hover .au-header__text {
 
 .au-progress-indicator--dark .au-progress-indicator__status {
     color: #b8cfd4
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/responsive-media v2.0.14 */
 
@@ -4625,9 +4587,7 @@ a.au-header__brand:hover .au-header__text {
 *+.au-responsive-media-img, .au-body *+img, .au-responsive-media *+img {
     margin-top: 16px;
     margin-top: 1rem
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/text-inputs v2.1.2 */
 
@@ -5100,9 +5060,7 @@ textarea.au-text-input {
         padding-right: 24px;
         padding-right: 1.5rem
     }
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/select v2.0.11 */
 
@@ -5226,9 +5184,7 @@ html>body .au-select, x:-moz-any-link, x:default {
         padding-right: 36px;
         padding-right: 2.25rem
     }
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/accordion v7.0.8 */
 
@@ -5752,9 +5708,7 @@ html>body .au-select, x:-moz-any-link, x:default {
     .au-side-nav.au-side-nav--dark.au-side-nav--alt a:hover {
         background-color: #0a323c
     }
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/skip-link v2.0.16 */
 
@@ -5809,9 +5763,7 @@ html>body .au-select, x:-moz-any-link, x:default {
 .au-body .au-skip-link__link:hover, .au-skip-link__link:hover {
     text-decoration: none;
     color: #fff
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/table v0.2.0 */
 
@@ -5922,9 +5874,7 @@ html>body .au-select, x:-moz-any-link, x:default {
 
 .au-table__wrapper {
     overflow-x: auto
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/tags v4.0.0 */
 
@@ -6009,9 +5959,7 @@ a.au-tag.au-tag--dark::-moz-focus-inner {
 
 .au-tag-list li>.au-tag:focus {
     outline-offset: -1px
-}
-
-/*! @gov.au/core v3.4.2 */
+}/*! @gov.au/core v3.4.2 */
 
 /*! @gov.au/text-inputs v2.1.2 */
 
