@@ -9,10 +9,51 @@
 	<html class="no-js ie9" lang="en">
 <![endif]-->
 <!--[if !(IE)]><!-->
-	<html class="no-js" lang="en">
+<html class="no-js" lang="en">
 <!--<![endif]-->
 
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<!-- AGLS Metadata -->
+	<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" />
+	<link rel="schema.AGLSTERMS" href="http://www.agls.gov.au/agls/terms/" />
+	<meta name="DCTERMS.title" content="Content page template - Australian Government Design System" />
+	<meta ... scheme="AGLSTERMS.AglsAgent" content="corporateName=Digital Transformation Agency, Australia; address=50 Marcus Clarke St Canberra ACT 2601; contact=+61 427 136 791" />
+	<meta name="DCTERMS.publisher" scheme="AGLSTERMS.AglsAgent" content="corporateName=Digital Transformation Agency, Australia; address=50 Marcus Clarke St Canberra ACT 2601; contact=+61 427 136 791" />
+	<meta name="DCTERMS.description" content="Content pages display information clearly" />
+	<meta name="DCTERMS.modified" scheme="DCTERMS.ISO8601" content="2010-07-29T12:05:44+10:00" />
+	<meta name="DCTERMS.subject" content="design system, templates" />
+	<meta name="DCTERMS.language" scheme="DCTERMS.RFC4646" content="en-AU" />
+	<meta name="DCTERMS.type" content="Content page template" />
+	<meta name="DCTERMS.coverage" content="Australia" />
+	<meta name="DCTERMS.spatial" content="Australia" />
+	<meta name="AGLSTERMS.documentType" content="text" />
+	<meta name="msapplication-TileColor" content="#ffffff" />
+	<meta name="theme-color" content="#ffffff" />
+	<meta name="robots" content="index, follow" />
+	<meta name="author" content="Digital Transformation Agency" />
+	<meta name="description" content="Content pages display information clearly" />
+
+	<!-- TWITTER CARD -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Australian Government Design System" />
+	<meta name="twitter:description" content="Content pages display information clearly" />
+	<meta name="twitter:site" content="@DTA" />
+	<meta name="twitter:image" content="https://govau.github.io/design-system-starter/assets/favicons/designsystem.jpg" />
+
+	<!-- OPENGRAPH -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Content page template - Australian Government Design System" />
+	<meta property="og:site_name" content="Australian Government Design System" />
+	<meta property="og:description" content="Content pages display information clearly" />
+	<meta property="og:image" content="https://govau.github.io/design-system-starter/assets/favicons/designsystem.jpg" />
+	<meta property="og:url" content="https://designsystem.gov.au" />
+	<meta property="article:published_time" content="2019-05-15" />
+	<meta property="article:tag" content="design system" />
+	<meta property="article:tag" content="templates" />
+
 	<title>Australian Government Design System | Content</title>
 
 	<script type="text/javascript">
@@ -38,6 +79,7 @@
 
 <!-- BODY -->
 <!-- GRID-12 -->
+
 <body class="au-grid">
 
 	<!-- SKIP-LINKS -->
@@ -54,8 +96,8 @@
 					<a class="au-header__brand" href="#">
 						<img class="au-header__brand-image" alt="Insert alternate text here" src="../assets/img/header-logo-agov.png">
 						<div class="au-header__text">
-						<h1 class="au-header__heading">Name of website</h1>
-						<div class="au-header__subline">Simple explanation of the website</div>
+							<h1 class="au-header__heading">Name of website</h1>
+							<div class="au-header__subline">Simple explanation of the website</div>
 						</div>
 					</a>
 				</div>
@@ -69,19 +111,13 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="au-main-nav__content" id="main-nav-default-dark">
-						<button
-							aria-controls="main-nav-default-dark"
-							class="au-main-nav__toggle au-main-nav__toggle--open"
-							onClick="return AU.mainNav.Toggle( this )">
+						<button aria-controls="main-nav-default-dark" class="au-main-nav__toggle au-main-nav__toggle--open" onClick="return AU.mainNav.Toggle( this )">
 							Menu
 						</button>
 						<div class="au-main-nav__menu">
 							<div class="au-main-nav__menu-inner">
 								<div class="au-main-nav__focus-trap-top"></div>
-								<button
-									aria-controls="main-nav-default-dark"
-									class="au-main-nav__toggle au-main-nav__toggle--close"
-									onClick="return AU.mainNav.Toggle( this )">
+								<button aria-controls="main-nav-default-dark" class="au-main-nav__toggle au-main-nav__toggle--close" onClick="return AU.mainNav.Toggle( this )">
 									Close
 								</button>
 								<ul class="au-link-list">
@@ -107,70 +143,39 @@
 		<section class="au-body">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm-4 col-sm-push-8">
-						<aside class="au-side-nav au-accordion" aria-label="side navigation">
-							<button
-								class="au-side-nav__toggle au-accordion__title au-accordion--closed"
-								aria-controls="nav-default"
-								aria-expanded="false"
-								aria-selected="false"
-								onclick="return AU.accordion.Toggle( this )"
-							>
-								In the content page section
-							</button>
-							<div id="nav-default" class="au-side-nav__content au-accordion--closed au-accordion__body">
-								<h2 class="au-sidenav__title">
-									<a href="#">Content page</a>
-								</h2>
-								<ul class="au-link-list">
-									<li><a href="#">Page link</a></li>
-									<li><a href="#">Page link</a>
-										<ul class="au-link-list">
-											<li class="active"><span>Content page example</span></li>
-											<li><a href="#">Child link</a></li>
-										</ul>
-									</li>
-									<li><a href="#">Page link</a></li>
-									<li><a href="#">Page link</a></li>
-									<li><a href="#">Page link</a>
-										<ul class="au-link-list">
-											<li><a href="#">Child link</a>
-												<ul class="au-link-list">
-													<li><a href="#">Grandchild link</a></li>
-													<li><a href="#">Grandchild link</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Child link</a></li>
-											<li><a href="#">Child link</a></li>
-										</ul>
-									</li>
-									</ul>
-							</div>
-						</aside>
-					</div>
-					<div class="col-sm-8 col-sm-pull-4" id="content">
-						<nav class="au-breadcrumbs" aria-label="breadcrumb">
-							<ul class="au-link-list au-link-list--inline">
-								<li><a href="../">Home</a></li>
-								<li><a href="#">Content page</a></li>
-								<li><a href="#">Page link</a></li>
-								<li>Content page example</li>
-							</ul>
-						</nav>
-						<h1>Content page example (h1)</h1>
-						<p>The page heading communicates the main focus of the page. Make your page heading descriptive and keep it succinct.</p>
-						<p>These headings introduce, respectively, sections and subsections within your body copy. As you create these headings, follow the same guidelines that you use when writing section headings: Be succinct, descriptive, and precise.</p>
-						<h2>Subsection heading (h2)</h2>
-						<p>The particulars of your body copy will be determined by the topic of your page. Regardless of topic, it’s a good practice to follow the inverted pyramid structure when writing copy: Begin with the information that’s most important to your users and then present information of less importance.</p>
-						<p>Keep each section and subsection focused — a good approach is to include one theme (topic) per section.</p>
-						<h3>Subsection heading (h3)</h3>
-						<p>Use the side navigation menu to help your users quickly skip to different sections of your page. The menu is best suited to displaying a hierarchy with 1 to 3 levels and, as we mentioned, to display the sub-navigation of a given page.</p>
-						<p>Read more about how to best design and structure your web content using the <a href="https://guides.service.gov.au/content-guide/">content guide</a>.</p>
-					</div>
+          <div class="col-md-12">
+					<table class="au-table">
+						<caption class="au-table__caption">Population of Australian states and territories, December 2015</caption>
+						<thead class="au-table__head">
+							<tr class="au-table__row">
+								<th scope="col" class="au-table__header">Location</th>
+								<th scope="col" class="au-table__header au-table__header--numeric">Population</th>
+								<th scope="col" class="au-table__header au-table__header--numeric">Change over previous year %</th>
+							</tr>
+						</thead>
+						<tbody class="au-table__body">
+							<tr class="au-table__row">
+								<td class="au-table__cell">New South Wales</td>
+								<td class="au-table__cell au-table__cell--numeric">7,670,700</td>
+								<td class="au-table__cell au-table__cell--numeric">3.1%</td>
+							</tr>
+							<tr class="au-table__row">
+								<td class="au-table__cell">Victoria</td>
+								<td class="au-table__cell au-table__cell--numeric">5,996,400</td>
+								<td class="au-table__cell au-table__cell--numeric">2.5%</td>
+							</tr>
+							<tr class="au-table__row">
+								<td class="au-table__cell">Tasmania</td>
+								<td class="au-table__cell au-table__cell--numeric">517,400</td>
+								<td class="au-table__cell au-table__cell--numeric">4.0%</td>
+							</tr>
+						</tbody>
+          </table>
+          </div>
 				</div>
 			</div>
 		</section>
-		<!--END CONTENT-->
+    <!--END CONTENT-->
 	</main>
 	<!-- END MAIN BODY -->
 
@@ -196,7 +201,7 @@
 	</footer>
 
 	<!-- The javascript from pancake to open and close side nav on desktop -->
-	<script type="text/javascript" src="../js/script.js"></script>
+	<script type="text/javascript" src="../js/script.min.js"></script>
 </body>
 
 </html>

@@ -4,6 +4,15 @@
 
 /*! @gov.au/accordion v7.0.8 */
 
+.hwd-listing li {
+    list-style: none; 
+    max-width: inherit;
+    clear: both;
+}
+.image--border img {
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.3);
+}
+
 @media print {
     .au-accordion {
         border-color: #000 !important;
