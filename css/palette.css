@@ -1,0 +1,14 @@
+/*current*/
+dark {background-color: #135E70}
+button {background-color: #00698f}
+button:hover {background-color: #313131}
+light {background-color: #61daff}
+
+/*new*/
+/*auqa splash*/
+/*#13547a → #80d0c7*/
+
+dark {background-color: linear-gradient(45deg, #13547a 0%, #7cd4ca 100%)}
+button {background-color: #135379}
+button:hover {background-color: #7cd4ca}
+light {background-color: #70e7eb}
